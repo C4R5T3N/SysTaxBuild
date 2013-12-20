@@ -27,6 +27,9 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        window.addEventListener('load', function(){
+            FastClick.attach(document.body)
+        }, false)
     },
     // deviceready Event Handler
     //
