@@ -62,7 +62,7 @@ var app = {
 
 
     document.getElementById("visit").onclick = function(){
-
+    var domain = 'http://systax.org';
     var ref=window.open(domain,'_blank','location=yes');
 
     };
