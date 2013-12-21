@@ -70,4 +70,16 @@ var app = {
 document.getElementById("snap").onclick = function(){
     app.capturephoto();
 };
+document.getElementById("visitif").onclick = function(){
+    var domain = 'http://systax.org';
+    $("#iframe").attr('src',domain);
+    $("#page1").css('visibility','hidden');
+    $("#page2").css('visibility','visible');
+
+};
+document.getElementById("visitback").onclick = function(){
+    $("#page1").css('visibility','visible');
+    $("#page2").css('visibility','hidden');
+
+};
 

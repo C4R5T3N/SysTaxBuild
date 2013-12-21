@@ -24,18 +24,27 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>SysTax App</title>
+        <script src="js/jquery-2.0.3.js"></script>
     </head>
     <body>
-        <div  id="page1"  class="menue">
+        <div  id="page1"  class="menue" style="visibility: visible">
             <div>
             <button id="snap" type="button" class="btn btn-primary app-btn">Snap</button>
                 <p></p>
             <button id="visit" type="button" class="btn btn-primary app-btn">Visit Systax.org</button>
+
+                <p></p>
+                <button id="visitif" type="button" class="btn btn-primary app-btn">Visit Systax.org in iFrame</button>
             <img id="myImage" src=""/>
             </div>
         </div>
 
-        <div id="page2" class="menue">
+        <div id="page2" class="iframe_container" style="visibility: hidden">
+            <button id="visitback" type="button" class="btn btn-primary app-btn">back</button>
+            <div  id="id_iframe_container" class="iframe_container">
+                <iframe id="iframe" class="iframe" seamless="seamless" src="about:blank"></iframe>
+            </div>
+
         </div>
 
     <!--
