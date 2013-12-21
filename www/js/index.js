@@ -27,9 +27,6 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        window.addEventListener('load', function(){
-            FastClick.attach(document.body)
-        }, false)
     },
     // deviceready Event Handler
     //
@@ -62,18 +59,12 @@ var app = {
         alert('Fail'+message);
     }
 };
+
+
     document.getElementById("visit").onclick = function(){
-        /*
-        $('#id_menue').css('display','none');
-        $('#id_iframe_container').visible();
-        var domain='http://www.systax.org'
-      /*var ref=window.open(domain,'_blank','location=yes');*/
-      /*  document.getElementById("test").src=domain;*/
-        /*
-        window.location.href='./web.html';
-        */
-        $("#page2").attr('src', 'http://www.ard.de')
-        $.mobile.changePage("#page2");
+
+    var ref=window.open(domain,'_blank','location=yes');
+
     };
 
 document.getElementById("snap").onclick = function(){
