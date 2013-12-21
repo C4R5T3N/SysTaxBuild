@@ -37,7 +37,6 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        navigator.notification.alert("camera");
 
     },
     // Update DOM on a Received Event
@@ -64,14 +63,20 @@ var app = {
     }
 };
     document.getElementById("visit").onclick = function(){
+        /*
+        $('#id_menue').css('display','none');
+        $('#id_iframe_container').visible();
         var domain='http://www.systax.org'
-        var ref=window.open(domain,'_blank','location=yes');
-        ref.addEventListener('loadstart', function(event){alert('start'+event.url)});
-        ref.addEventListener('exit', function(event){navigator.notification.alert('start'+event.url)});
+      /*var ref=window.open(domain,'_blank','location=yes');*/
+      /*  document.getElementById("test").src=domain;*/
+        /*
+        window.location.href='./web.html';
+        */
+        $("#page2").attr('src', 'http://www.ard.de')
+        $.mobile.changePage("#page2");
     };
 
 document.getElementById("snap").onclick = function(){
     app.capturephoto();
-
 };
 
