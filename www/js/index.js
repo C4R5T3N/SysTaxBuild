@@ -72,8 +72,11 @@ document.getElementById("snap").onclick = function(){
 };
 document.getElementById("visitif").onclick = function(){
     var domain = 'http://systax.org';
+
     $("#iframe").attr('src',domain);
-    $("#page1").css('visibility','hidden');
+    $('#page1').fadeOut();
+    $('#page2').fadeIn();
+    /*$("#page1").css('visibility','hidden');*/
     $("#page2").css('visibility','visible');
 
 };
