@@ -71,9 +71,9 @@ document.getElementById("snap").onclick = function(){
     app.capturephoto();
 };
 document.getElementById("visitif").onclick = function(){
-    var domain = 'http://systax.org';
+   /* var domain = 'http://systax.org';
 
-    $("#iframe").attr('src',domain);
+    $("#iframe").attr('src',domain);*/
     $('#page1').fadeOut();
     $('#page2').fadeIn();
     /*$("#page1").css('visibility','hidden');*/
