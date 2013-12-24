@@ -77,7 +77,7 @@ document.getElementById("visitif").onclick = function(){
     $('#page1').fadeOut();
     $('#page2').fadeIn();
     /*$("#page1").css('visibility','hidden');*/
-    $("#page2").css('visibility','visible');
+    /*$("#page2").css('visibility','visible');*/
 
 };
 document.getElementById("visitback").onclick = function(){

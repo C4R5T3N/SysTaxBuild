@@ -25,9 +25,12 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>SysTax App</title>
         <script src="js/jquery-2.0.3.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+        <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
     </head>
     <body>
-        <div  id="page1"  class="menue" style="visibility: visible">
+    <div id="home" class="iframe_container">
+        <div  id="page1"  class="menue">
             <div>
             <button id="snap" type="button" class="btn btn-primary app-btn">Snap</button>
                 <p></p>
@@ -38,8 +41,8 @@
             <img id="myImage" src=""/>
             </div>
         </div>
-
-        <div id="page2" class="iframe_container" style="visibility: hidden">
+    </div>
+        <div id="SysTaxView" class="iframe_container" >
             <button id="visitback" type="button" class="btn btn-primary app-btn">back</button>
             <div  id="id_iframe_container" class="iframe_container">
                 <iframe id="iframe" class="iframe" seamless="seamless" src="http://www.systax.org"></iframe>
