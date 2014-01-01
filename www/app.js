@@ -83,9 +83,7 @@ var detailsPage =
         '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
         '<div class="scroller">' +
         '<div class="robot">' +
-        '<img src="images/{{img}}"/>' +
-        '<h2>{{name}}</h2>' +
-        '<p>{{description}}</p>' +
+        '<iframe id="iframe"  style="width: 100px; height: 100px;" seamless="seamless" src="http://www.systax.org"></iframe>'+
         '</div>' +
         '</div>' +
         '</div>';
