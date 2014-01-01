@@ -61,6 +61,7 @@ route();
 */
 window.addEventListener('load', function () {
     new FastClick(document.body);
+    $('#snap').on('click', function(){window.location='#page1';});
 }, false);
 
 // The dynamically built HTML pages. In a real-life app, In a real-life app, use Handlerbar.js, Mustache.js or another template engine
@@ -73,6 +74,7 @@ var homePage =
         '<li><a href="#page2"><strong>Medi Bot</strong></a></li>' +
         '<li><a href="#page3"><strong>Ripple Bot</strong></a></li>' +
         '</ul>' +
+        '<button id="snap" type="button"  class="btn btn-primary app-btn">ARD.de</button>'+
         '</div>' +
         '</div>';
 
