@@ -86,6 +86,7 @@ var detailsPage =
         '<img src="images/{{img}}"/>' +
         '<h2>{{name}}</h2>' +
         '<p>{{description}}</p>' +
+        '<iframe id="iframe" class="iframe" seamless="seamless" src="http://www.systax.org"></iframe>'+
         '</div>' +
         '</div>' +
         '</div>';
