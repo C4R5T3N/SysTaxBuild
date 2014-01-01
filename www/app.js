@@ -26,9 +26,9 @@ var homePage =
 var WebView=
     '<div>' +
         '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
-        '<div class="page scroller">' +
-            '<iframe id="iframe" class="iframe" seamless="seamless" src="http://www.systax.org"></iframe>'+
-        '</div>' +
+         '<div class="page scroller">' +
+                '<iframe id="iframe" class="iframe" seamless="seamless" src="http://www.systax.org"></iframe>'+
+            '</div>' +
     '</div>';
 
 
@@ -61,7 +61,7 @@ route();
 */
 window.addEventListener('load', function () {
     new FastClick(document.body);
-    $('#snap').on('click', function(){window.location='#page2';});
+    $('#snap').on('click', function(){window.location='#page1';});
 }, false);
 
 // The dynamically built HTML pages. In a real-life app, In a real-life app, use Handlerbar.js, Mustache.js or another template engine
@@ -89,13 +89,6 @@ var detailsPage =
         '</div>' +
         '</div>' +
         '</div>';
-var page2=
-    '<div>' +
-        '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
-        '<div class="page scroller">' +
-        '<iframe id="iframe" class="iframe" seamless="seamless" src="http://www.systax.org"></iframe>'+
-        '</div>' +
-        '</div>';
 
 
 var slider = new PageSlider($("#container"));
@@ -110,7 +103,7 @@ function route(event) {
         page = merge(detailsPage, {img: "buildbot.jpg", name: "Build Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
     } else if (hash === "#page2") {
-        page = page2;
+        page = merge(detailsPage, {img: "medibot.jpg", name: "Medi Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
     } else if (hash === "#page3") {
         page = merge(detailsPage, {img: "ripplebot.jpg", name: "Ripple Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
@@ -122,7 +115,7 @@ function route(event) {
     }
 
     slider.slidePage($(page));
-    $('#snap').on('click', function(){window.location='#page2';});
+    $('#snap').on('click', function(){window.location='#page1';});
 
 
 }
