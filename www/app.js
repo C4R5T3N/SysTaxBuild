@@ -61,7 +61,7 @@ route();
 */
 window.addEventListener('load', function () {
     new FastClick(document.body);
-    $('#snap').on('click', function(){window.location='#page1';});
+    $('#snap').on('click', function(){window.location='#mypage';});
 }, false);
 
 // The dynamically built HTML pages. In a real-life app, In a real-life app, use Handlerbar.js, Mustache.js or another template engine
@@ -86,10 +86,18 @@ var detailsPage =
         '<img src="images/{{img}}"/>' +
         '<h2>{{name}}</h2>' +
         '<p>{{description}}</p>' +
-        '<iframe id="iframe" class="iframe" seamless="seamless" src="http://www.systax.org"></iframe>'+
         '</div>' +
         '</div>' +
         '</div>';
+var mypage=
+'<div>' +
+    '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
+    '<div class="scroller">' +
+        '<div class="robot">' +
+           'This is my page'+
+        '</div>' +
+    '</div>' +
+'</div>';
 
 
 var slider = new PageSlider($("#container"));
@@ -109,6 +117,8 @@ function route(event) {
     } else if (hash === "#page3") {
         page = merge(detailsPage, {img: "ripplebot.jpg", name: "Ripple Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
+    } else if (hash=="#mypage") {
+        page=mypage;
     }
     else {
         page = homePage;
@@ -116,7 +126,7 @@ function route(event) {
     }
 
     slider.slidePage($(page));
-    $('#snap').on('click', function(){window.location='#page1';});
+    $('#snap').on('click', function(){window.location='#mypage';});
 
 
 }
