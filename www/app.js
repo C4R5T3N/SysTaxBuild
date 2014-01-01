@@ -4,8 +4,8 @@ window.addEventListener('load', function () {
 }, false);
 var app = {
     register:function(){
-        $('#snap').on('click', function(){alert("klappt"); window.location.hash="#WebView"});
-        $('#visit').on('click', function(){alert("klappt"); window.location.hash="#WebView"});
+        $('#snap').on('click', function(){window.location='#WebView';});
+        $('#visit').on('click', function(){window.location='#WebView';});
     }
 }
 // The dynamically built HTML pages. In a real-life app, In a real-life app, use Handlerbar.js, Mustache.js or another template engine
@@ -13,7 +13,7 @@ var homePage =
     '<div>' +
         '<div class="header"><h1>SysTaxApp</h1></div>' +
         '<div class="mypage">' +
-                '<div class="mainmenue">'+
+                '<div class="page scroller">'+
                     '<button id="snap" type="button"  class="btn btn-primary app-btn">ARD.de</button>'+
                         '<p></p>'+
                     '<button id="visit" type="button" class="btn btn-primary app-btn">Visit Systax.org</button>'+
@@ -25,7 +25,7 @@ var homePage =
 var WebView=
     '<div>' +
         '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
-            '<div class="mypage">' +
+            '<div class="page scroller">' +
                 '<iframe id="iframe" class="iframe" seamless="seamless" src="http://www.systax.org"></iframe>'+
             '</div>' +
         '</div>';

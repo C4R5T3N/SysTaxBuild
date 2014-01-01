@@ -7,8 +7,8 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: white;
-
+    font: 14px sans-serif;
+    background-color: #EAEAEA;
 }
 
 a {
@@ -52,7 +52,7 @@ a {
     color: #fff;
     background-color: #0876b1;
 }
-/*
+
 .page .scroller {
     position: absolute;
     overflow: auto;
@@ -61,34 +61,7 @@ a {
     right: 0;
     bottom: 0;
 }
-*/
-.mypage {
-    position: absolute;
-    overflow: auto;
-    height: 100%;
-    width: 100%;
-    top: 45px;
-    left: 0px;
-    right: 0;
-    bottom: 0;
-}
-.mainmenue{
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
 
-    position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
-    height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
-    text-align:center;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
-    /* offset horizontal: half of text area width */
-}
-.iframe{
-    width: 100%;
-    height: 100%;
-}
 .list {
     margin: 0;
     padding: 0;
@@ -123,7 +96,4 @@ a {
 
 .robot > p {
     clear: both;
-}
-.btn.btn-primary.app-btn{
-    width: 100%;
 }
