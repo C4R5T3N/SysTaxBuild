@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fbdb56a-ff6b-4cff-a9e7-b60b9620b99f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app.js" afterPath="$PROJECT_DIR$/www/app.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/standard_img/icon-36-ldpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/standard_img/icon-48-mdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/standard_img/icon-72-hdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/res/icon/android/standard_img/icon-96-xhdpi.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-hdpi-landscape.png" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-hdpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-landscape.png" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-portrait.png" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-landscape.png" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-portrait.png" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-landscape.png" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-portrait.png" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SysTaxBuild.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +40,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="icon-36-ldpi.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icon.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/icon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,74 +63,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pageslider.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/lib/pageslider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-              <folding />
-            </state>
+      <file leaf-file-name="icon-48-mdpi.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-2.0.3.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/lib/jquery-2.0.3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132525">
-              <folding />
-            </state>
+      <file leaf-file-name="icon-72-hdpi.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pageslider.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/pageslider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="615">
-              <folding />
-            </state>
+      <file leaf-file-name="icon-96-xhdpi.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fastclick.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/lib/fastclick.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10320">
-              <folding />
-            </state>
+      <file leaf-file-name="screen-xhdpi-portrait.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-portrait.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="49" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.39087948" vertical-offset="1155" max-vertical-offset="2175">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1388584585000" expanded="true" signature="2886:2914" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="25" selection-start="6133" selection-end="6133" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1740">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="1" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/img/logo.png">
+      <file leaf-file-name="screen-ldpi-landscape.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-ldpi-landscape.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -207,6 +198,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SysTaxBuild" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -292,6 +379,14 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -302,23 +397,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -364,7 +451,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="711" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="711" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -372,19 +459,24 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.60227275" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39772728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39772728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -398,7 +490,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/icon.png">
+    <entry file="file://$PROJECT_DIR$/www/css/pageslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="2" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="2175">
+          <folding>
+            <marker date="1388584585000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-hdpi-portrait.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-ldpi-portrait.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-mdpi-portrait.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-mdpi-landscape.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-hdpi-landscape.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-landscape.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-portrait.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/fastclick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/jquery-2.0.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="1" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="25" selection-start="6133" selection-end="6133" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/pageslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="2" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
+          <folding>
+            <marker date="1388584585000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-mdpi-portrait.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-mdpi-landscape.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-hdpi-portrait.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -418,56 +624,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-hdpi-portrait.png">
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-landscape.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/cordova-2.5.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="91320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/pageslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/fastclick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/jquery-2.0.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="132525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="1" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/www/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="25" selection-start="6133" selection-end="6133" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1740">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
@@ -477,21 +641,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/pageslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="615">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="49" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.39087948" vertical-offset="1155" max-vertical-offset="2175">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1388584585000" expanded="true" signature="2886:2914" placeholder="..." />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-portrait.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
