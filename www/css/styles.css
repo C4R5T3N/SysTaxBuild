@@ -8,7 +8,7 @@ body {
     padding: 0px;
     margin: 0px;
     font: 14px sans-serif;
-    background-color: #EAEAEA;
+    background-color: white;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
     left: 0px;
     right: 0px;
     height: 44px;
-    background: #109adc;
+    background: #428bca;
     color: #FFFFFF;
     border-bottom: 1px solid #0E5895;;
 }
@@ -42,10 +42,15 @@ a {
     position: absolute;
     top: 5px;
     left: 8px;
-    line-height: 32px;
+    line-height: 32px/*
     background-color: #0984c6;
     border: 1px solid #0e5895;
     border-radius: 2px;
+    */
+}
+
+.app-btn{
+
 }
 
 .header a:active {

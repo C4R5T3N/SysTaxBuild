@@ -59,11 +59,37 @@ function merge(tpl, data) {
 
 route();
 */
+/*
 window.addEventListener('load', function () {
     new FastClick(document.body);
     $('#snap').on('click', function(){window.location='#mypage';});
 }, false);
+*/
+var app={
+    init:function(){
+        new FastClick(document.body);
+        this.register();
 
+    },
+    register:function(){
+        $('#snap').on('click', function(){window.location='#mypage';});
+        $('#back').on('click', function(){window.location='#';});
+        $('#backi').on('click', function(){window.location='#';});
+
+        this.abouttemplate=Handlebars.compile($('#about-template').html());
+    },
+    showAlert:function(msg){
+        if(navigator.notification){
+            //Signature: navigator.notification.alert(message, alertCallback, [title], [buttonName])
+            navigator.notification.alert(msg, null, 'Warnung', 'OK');
+        } else {
+            alert(msg);
+        }
+    }
+};
+app.init();
+app.context={};
+app.about=app.abouttemplate(app.context);
 // The dynamically built HTML pages. In a real-life app, In a real-life app, use Handlerbar.js, Mustache.js or another template engine
 var homePage =
     '<div>' +
@@ -87,15 +113,6 @@ var detailsPage =
         '</div>' +
         '</div>' +
         '</div>';
-var mypage=
-'<div>' +
-    '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
-    '<div class="scroller">' +
-        '<div class="robot">' +
-           'This is my page'+
-        '</div>' +
-    '</div>' +
-'</div>';
 
 
 var slider = new PageSlider($("#container"));
@@ -116,16 +133,16 @@ function route(event) {
         page = merge(detailsPage, {img: "ripplebot.jpg", name: "Ripple Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
     } else if (hash=="#mypage") {
-        page=mypage;
+        page= app.about;
     }
     else {
+
         page = homePage;
 //        slider.slide($(homePage), "left");
     }
 
     slider.slidePage($(page));
-    $('#snap').on('click', function(){window.location='#mypage';});
-
+    app.register();
 
 }
 
