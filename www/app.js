@@ -69,14 +69,19 @@ var app={
     init:function(){
         new FastClick(document.body);
         this.register();
+        view.init();
+        /*
+        this.aboutTemplate=Handlebars.compile($('#about-template').html());
+        */
 
     },
     register:function(){
         $('#snap').on('click', function(){window.location='#mypage';});
         $('#back').on('click', function(){window.location='#';});
         $('#backi').on('click', function(){window.location='#';});
+        $('#go').on('click', function(){window.location='#mypage';});
 
-        this.abouttemplate=Handlebars.compile($('#about-template').html());
+
     },
     showAlert:function(msg){
         if(navigator.notification){
@@ -88,8 +93,10 @@ var app={
     }
 };
 app.init();
+/*
 app.context={};
-app.about=app.abouttemplate(app.context);
+app.about=app.aboutTemplate(app.context);
+*/
 // The dynamically built HTML pages. In a real-life app, In a real-life app, use Handlerbar.js, Mustache.js or another template engine
 var homePage =
     '<div>' +
@@ -133,11 +140,13 @@ function route(event) {
         page = merge(detailsPage, {img: "ripplebot.jpg", name: "Ripple Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
     } else if (hash=="#mypage") {
-        page= app.about;
+        page= view.about;
     }
     else {
-
+        page=view.home;
+/*
         page = homePage;
+        */
 //        slider.slide($(homePage), "left");
     }
 
@@ -152,5 +161,4 @@ function merge(tpl, data) {
         .replace("{{name}}", data.name)
         .replace("{{description}}", data.description);
 }
-
 route();
