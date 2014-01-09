@@ -15,6 +15,9 @@
 
     <!-- main is able to communicate with all domains. Restrict the accessable domains asap!!!-->
 
+    <preference name="phonegap-version" value="3.0.0" />
+
+    <gap:plugin name="org.apache.cordova.core.camera" />
     <!-- Plugins: -->
     <gap:platform name="android"/>
    <!-- <gap:plugin name="org.apache.cordova.camera" version="0.2.3" />-->
