@@ -4,7 +4,6 @@
 var view={
   init:function(){
       view.context={};
-      app.showAlert('alert');
       this.renderAbout();
       this.renderHome();
   },
@@ -19,12 +18,3 @@ var view={
 };
 
 view.init();
-view.about =
-    '<div>' +
-        '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
-        '<div class="scroller">' +
-        '<div class="robot">' +
-        '<iframe id="iframe"  style="width: 100px; height: 100px;" seamless="seamless" src="http://www.systax.org"></iframe>'+
-        '</div>' +
-        '</div>' +
-        '</div>';
