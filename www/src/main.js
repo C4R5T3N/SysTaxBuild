@@ -10,6 +10,12 @@ var main={
         $('#back').on('click', function(){window.location='#';});
         $('#backi').on('click', function(){window.location='#';});
         $('#go').on('click', function(){window.location='#about';});
+        $('#visitSysTaxOrg')
+            .on('click',
+                function(){
+                    window.plugins.childBrowser.showWebPage('http://www.google.com',{ showLocationBar: true });
+                }
+            );
 
 
     },
