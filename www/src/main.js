@@ -13,8 +13,7 @@ var main={
         $('#visitSysTaxOrg')
             .on('click',
                 function(){
-                    window.plugins.childBrowser.showWebPage('http://www.google.com',{ showLocationBar: true });
-                }
+                    window.open('http://www.systax.org', '_blank', 'location=yes');                }
             );
 
 
