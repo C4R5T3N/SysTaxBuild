@@ -25,6 +25,7 @@
     <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
     <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
     <plugin name="Notification" value="org.apache.cordova.Notification"/>
+    <preference name="orientation" value="portrait" />
 
     <!--
     <access origin="http://127.0.0.1*" />
