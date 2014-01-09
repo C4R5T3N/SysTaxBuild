@@ -13,9 +13,13 @@ var main={
         $('#visitSysTaxOrg')
             .on('click',
                 function(){
+
                     window.open('http://www.systax.org', '_blank', 'location=yes');                }
             );
-        $('#visitIframe').on('click', function(){window.location='#iframe';});
+        $('#visitIframe').on('click', function(){
+
+            window.location='#iframe';
+        });
 
 
 
@@ -43,6 +47,8 @@ function route(event) {
         page=view.about;
     } else if (hash === "#iframe") {
         page=view.iframe;
+    $('#iframeId').attr('src', "http://www.google.com");
+
     }
     else {
         page=view.home;
