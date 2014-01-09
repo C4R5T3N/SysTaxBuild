@@ -15,6 +15,8 @@ var main={
                 function(){
                     window.open('http://www.systax.org', '_blank', 'location=yes');                }
             );
+        $('#visitIframe').on('click', function(){window.location='#iframe';});
+
 
 
     },
@@ -39,8 +41,8 @@ function route(event) {
 
     if (hash === "#about") {
         page=view.about;
-    } else if (hash === "#page2") {
-        page=view.about;
+    } else if (hash === "#iframe") {
+        page=view.iframe;
     }
     else {
         page=view.home;

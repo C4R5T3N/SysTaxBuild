@@ -29,13 +29,29 @@
                     <img id="icon" src="icon.png">
                 <button id="go" type="button"  class="btn btn-primary app-btn">Go</button>
                     <p></p>
-                 <button id="visitSysTaxOrg" type="button"  class="btn btn-primary app-btn">Visit SysTax.org</button>
+                <button id="visitSysTaxOrg" type="button"  class="btn btn-primary app-btn">Visit SysTax.org</button>
+                    <p></p>
+                <button id="visitIframe" type="button"  class="btn btn-primary app-btn">Visit SysTax.org in iframe</button>
+
 
                 </div>
             </div>
         </div>
     </script>
+    <script id="iframe-template" type="text/x-handlebars-template">
+        <div>
+            <div class="header">
+                <button id="back" type="button"  class="btn btn-primary app-btn">back</button>
 
+                <h1>Iframe</h1>
+            </div>
+            <div class="scroller" >
+                <div >
+                <iframe src="http://www.systax.org"></iframe>
+                </div>
+            </div>
+        </div>
+    </script>
 </head>
 <body>
 
